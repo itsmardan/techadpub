@@ -62,7 +62,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     left: 0;
     top: 0;
     width: 30px;
-    height: 200%; }
+    height: 100%; }
     @media (max-width: 840px) {
       .line.left {
         width: 15px; } }
@@ -71,7 +71,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     right: 0;
     top: 0;
     width: 30px;
-    height: 200%; }
+    height: 100%; }
     @media (max-width: 840px) {
       .line.right {
         width: 15px; } }
@@ -91,7 +91,13 @@ body {
   font-size: 32px;
   font-weight: 500;
   color: #000; }
-
+  @media (max-width: 760px) {
+    .reveal {
+      font-size: 28px;
+      margin-top: 20px;
+      height:600px;
+    }
+  }
 ::selection {
   color: #fff;
   background: #ffc0d5;
@@ -125,9 +131,16 @@ body {
   text-transform: normal;
   text-shadow: none;
   word-wrap: break-word; }
+ 
 
 .reveal h1 {
   font-size: 2.8em; }
+  @media (max-width: 760px) {
+    .reveal h1 {
+      font-size: 110px;
+      margin-top: -120px;
+    }
+  }
 
 .reveal h2 {
   font-size: 2.2em; }
@@ -147,7 +160,12 @@ body {
 .reveal p {
   margin: 20px 0;
   line-height: 1.3; }
-
+  @media (max-width: 760px) {
+    .reveal p {
+      font-size: 50px;
+      margin-top: 20px;
+    }
+  }
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
 .reveal video,

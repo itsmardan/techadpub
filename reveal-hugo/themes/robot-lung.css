@@ -94,8 +94,7 @@ body {
   @media (max-width: 760px) {
     .reveal {
       font-size: 28px;
-      margin-top: 20px;
-      height:600px;
+      height:700px;
     }
   }
 ::selection {
@@ -137,8 +136,8 @@ body {
   font-size: 2.8em; }
   @media (max-width: 760px) {
     .reveal h1 {
-      font-size: 80px;
-      margin-top: -100px;
+      font-size: 70px;
+     
     }
   }
 
